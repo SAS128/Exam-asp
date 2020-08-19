@@ -22,6 +22,12 @@
     .navbar navbar-light bg-light {
         display: inline-block;
     }
+    .card-text1{
+        display: inline-block;
+    }
+   .ak_section_name{
+      
+   }
 </style>
 <body>
     <form id="form1" runat="server">
@@ -108,8 +114,10 @@
                             </div>
                         </li>
                     </ul>
+                    <img class="logo" src="https://toyota.com.ua/assets/img/badge-toyota-new.png" alt="">
                 </div>
             </nav>
+            
         </div>
         <div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -142,6 +150,51 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
+        <div>
+            <h1 class="ak_section_name">Автомобили Toyota</h1>
+        </div>
+        <div>
+ <div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <a href="https://toyota.com.ua/ru/camry"> <img src="https://toyota.com.ua/uploads/camryrrr.png" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">CAMRY</h5>
+           <p class="card-text">Цена от 788 304 грн.</p>
+        <a href="https://toyota.com.ua/ru/test-drajv"> <p class="card-text1"><small>Тест-драйв</small></p></a>
+       <a href="https://toyota.com.ua/ru/camry"> <p class="card-text1"><small>Посмотреть</small></p></a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
     </form>
 </body>
